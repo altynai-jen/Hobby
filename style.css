@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: url(./img/foto.jpg) no-repeat center/cover;
+} 
+button {
+    cursor: pointer;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header-nav nav a:hover {
+    background: #0CA941;
+}
+
+
+#header {
+    padding: 10px 0;
+}
+ .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .header-foto {
+display: flex;
+align-items: center;
+gap: 40px;
+ }
+ .logo-one {
+display: flex;
+align-items: center;
+gap: 8px;
+ }
+ .header h4 {
+color: #374A3D;
+font-family: Gilroy;
+font-size: 32.317px;
+font-weight: 700;
+line-height: 33.203px;
+text-transform: capitalize;
+ }
+
+ nav a {
+color: #1D3B53;
+font-size: 18px;
+font-weight: 600;
+margin: 0 40px;
+width: 110.166px;
+height: 41.528px;
+border-radius: 6px;
+ }
+ .header button {
+color: #FFF;
+font-size: 18px;
+font-weight: 600;
+width: 110.166px;
+height: 41.528px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #0CA941;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+ }
+ /* HEADER */
+
+ /* HERO */
+ .hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+ }
+ .hero-title h1 {
+    color: #374A3D;
+    font-family: Rubik;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 76px;
+ } 
+ .hero-title h1 span {
+color: #0CA941;
+font-family: Rubik;
+font-size: 72px;
+font-weight: 700;
+line-height: 76px;
+ }
+ .hero-title p {
+color: #707070;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px; 
+padding: 20px 0 40px 0;
+ } 
+.hero-img {
+    width: 500px;
+    position: relative;
+}
+.one {
+    position: absolute;
+}
+.arrow {
+position: absolute;
+top: 20px;
+left: 250px;
+}
+.cactus {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+/* HERO */
+
+/* GIVE */
+#give {
+    padding: 60px 0 0 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.give {
+    display: flex;
+    align-items: center;
+
+}
+.give-title h4 {
+color: #374A3D;
+font-size: 30px;
+font-weight: 800;
+line-height: 40px;
+}
+.give-title p {
+    padding: 20px 0;
+color: #5B7262;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+}
+
+.project h1 {
+color: #0CA941;
+font-size: 60px;
+font-weight: 800;
+line-height: 42px;
+}
+.project p {
+    padding: 20px 0;
+color: #678570;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+}
+
+/* GARDENER */
+#gardener {
+    padding: 40px 0 0 0;
+}
+.gardener {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.gardener-title h2 {
+color: #374A3D;
+font-size: 36px;
+font-weight: 800;
+line-height: 44px;
+}
+.gardener-title p {
+    padding: 30px 0;
+color: #678570;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+}
+.gardener-img {
+    width: 500px;
+    position: relative;
+}
+.gardener-foto {
+    position: absolute;
+}
+.gardener-two {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+/* GARDENER */
+
+/* SERVICE */
+.service-title h3 {
+color: #374A3D;
+font-size: 36px;
+font-weight: 800;
+line-height: 60px;
+}
+.service-title p {
+    padding: 30px 0;
+    color: #678570;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.servise-img { 
+    width: 500px;
+    position: relative;
+}
+.service-one {
+    position: absolute;
+}
+.service-two {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+#service {
+    padding: 100px 0 0 0;
+    border-radius: 10px;
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.plant { 
+    width: 268.275px;
+height: 264.459px;
+border-radius: 10px;
+background: #FFF;
+box-shadow: 14px 15px 62px 0px rgba(12, 169, 65, 0.12);
+border: 0.5px solid rgba(0, 0, 0, 0.36);
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+.plants {
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.plant h3 {
+    padding: 15px 0;
+    color: #374A3D;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 26px;
+}
+.plant p {
+
+color: #678570;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+}
+/* SERVICE */
+
+/* FLOWERS */
+#flowers {
+    padding: 100px 0 0 0;
+}
+
+.flower-title h1 {
+    color: #374A3D;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 60px;
+}
+.flower-title p {
+color: #678570;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+padding: 55px 0;
+}
+
+.flowers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+.flower{
+width: 360px;
+height: 437px;
+border-radius: 37px;
+border: 0.5px solid rgba(0, 0, 0, 0.36);
+background: #FFF;
+padding: 20px 0 0 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.last-star {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.flower h2 {
+color: #374A3D;
+font-size: 24px;
+font-weight: 800;
+line-height: 30px;
+}
+.star p {
+color: #678570;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+}
+.flower p {
+    color: #678570;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.last-star h3 {
+ color: #0CA941;
+font-size: 20px;
+font-weight: 800;
+line-height: 30px;
+}
+.flower button {
+width: 128.057px;
+height: 43.929px;
+border-radius: 10px;
+border: 0.5px solid rgba(55, 74, 61, 0.36);
+background: #FFF;
+color: #678570;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+
+}
+/* FLOWERS */
+
+/* IDEA */
+#idea {
+    padding: 350px 0 60px 0;
+}
+
+.idea h1 {
+color: #374A3D;
+text-align: center;
+font-size: 36px;
+font-weight: 800;
+line-height: 60px;
+}
+.idea p {
+color: #678570;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+padding: 60px 0;
+}
+
+.search {
+    width: 700px;
+    position: relative;
+}
+.search input {
+    padding: 24px 350px 24px 33px;
+    border-radius: 10px;
+border: 1px solid #0CA941;
+background: #FFF;
+color: #C4C4C4;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+}
+.search button {
+    width: 223.418px;
+height: 81.891px;
+flex-shrink: 0;
+    border-radius: 10px;
+background: #0CA941;
+border: none;
+color: #FFF;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+position: absolute;
+right: 70px;
+}/* IDEA */
+
+/* FOOTER */
+#footer {
+    padding: 250px 0 20px 0;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo h3 {
+    color: #374A3D;
+    font-size: 32.317px;
+    font-weight: 700;
+    line-height: 33.203px;
+}
+.footer-title p {
+    padding: 20px 0;
+    color: #678570;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; 
+}
+.footer-url h2 {
+    color: #374A3D;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.footer-url {
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+.footer-url p {
+    color: #678570;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 160px;
+} 
+
+.footer-img {
+    padding: 150px 0 0 0;
+    width: 1300px;
+position: relative;
+}
+
+.svg {
+    position: absolute;
+    left: 300px;
+
+}
+.group-one {
+   position: absolute;
+   left: 300px
+
+}
+.group-two {
+    position: absolute;
+    left: 500px;
+}
+.group-tree {
+    position: absolute;
+    left: 800px;
+}
+.group-four {
+    position: absolute;
+    left: 1130px;
+}
+.group-five {
+    position: absolute;
+    left: 1335px;
+}
